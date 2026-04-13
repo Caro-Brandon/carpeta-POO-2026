@@ -27,7 +27,7 @@ public class Heroe
     }
      public void Mostrar()
     {
-        Console.WriteLine("Héroe: " + Nombre + " - Vida: " + PuntosVida);
+        Console.WriteLine("Héroe: " + Nombre + ", Vida: " + PuntosVida);
     }
 
 }
