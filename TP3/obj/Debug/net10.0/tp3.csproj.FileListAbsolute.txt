@@ -1,0 +1,15 @@
+C:\tp3\bin\Debug\net10.0\tp3.exe
+C:\tp3\bin\Debug\net10.0\tp3.deps.json
+C:\tp3\bin\Debug\net10.0\tp3.runtimeconfig.json
+C:\tp3\bin\Debug\net10.0\tp3.dll
+C:\tp3\bin\Debug\net10.0\tp3.pdb
+C:\tp3\obj\Debug\net10.0\tp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\tp3\obj\Debug\net10.0\tp3.AssemblyInfoInputs.cache
+C:\tp3\obj\Debug\net10.0\tp3.AssemblyInfo.cs
+C:\tp3\obj\Debug\net10.0\tp3.csproj.CoreCompileInputs.cache
+C:\tp3\obj\Debug\net10.0\tp3.sourcelink.json
+C:\tp3\obj\Debug\net10.0\tp3.dll
+C:\tp3\obj\Debug\net10.0\refint\tp3.dll
+C:\tp3\obj\Debug\net10.0\tp3.pdb
+C:\tp3\obj\Debug\net10.0\tp3.genruntimeconfig.cache
+C:\tp3\obj\Debug\net10.0\ref\tp3.dll
