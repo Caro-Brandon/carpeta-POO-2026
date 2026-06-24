@@ -1,0 +1,14 @@
+C:\TP-N6\bin\Debug\net10.0\TP-N6.exe
+C:\TP-N6\bin\Debug\net10.0\TP-N6.deps.json
+C:\TP-N6\bin\Debug\net10.0\TP-N6.runtimeconfig.json
+C:\TP-N6\bin\Debug\net10.0\TP-N6.dll
+C:\TP-N6\bin\Debug\net10.0\TP-N6.pdb
+C:\TP-N6\obj\Debug\net10.0\TP-N6.GeneratedMSBuildEditorConfig.editorconfig
+C:\TP-N6\obj\Debug\net10.0\TP-N6.AssemblyInfoInputs.cache
+C:\TP-N6\obj\Debug\net10.0\TP-N6.AssemblyInfo.cs
+C:\TP-N6\obj\Debug\net10.0\TP-N6.csproj.CoreCompileInputs.cache
+C:\TP-N6\obj\Debug\net10.0\TP-N6.dll
+C:\TP-N6\obj\Debug\net10.0\refint\TP-N6.dll
+C:\TP-N6\obj\Debug\net10.0\TP-N6.pdb
+C:\TP-N6\obj\Debug\net10.0\TP-N6.genruntimeconfig.cache
+C:\TP-N6\obj\Debug\net10.0\ref\TP-N6.dll

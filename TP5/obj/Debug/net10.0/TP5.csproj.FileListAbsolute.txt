@@ -1,0 +1,14 @@
+C:\TP5\bin\Debug\net10.0\TP5.exe
+C:\TP5\bin\Debug\net10.0\TP5.deps.json
+C:\TP5\bin\Debug\net10.0\TP5.runtimeconfig.json
+C:\TP5\bin\Debug\net10.0\TP5.dll
+C:\TP5\bin\Debug\net10.0\TP5.pdb
+C:\TP5\obj\Debug\net10.0\TP5.GeneratedMSBuildEditorConfig.editorconfig
+C:\TP5\obj\Debug\net10.0\TP5.AssemblyInfoInputs.cache
+C:\TP5\obj\Debug\net10.0\TP5.AssemblyInfo.cs
+C:\TP5\obj\Debug\net10.0\TP5.csproj.CoreCompileInputs.cache
+C:\TP5\obj\Debug\net10.0\TP5.dll
+C:\TP5\obj\Debug\net10.0\refint\TP5.dll
+C:\TP5\obj\Debug\net10.0\TP5.pdb
+C:\TP5\obj\Debug\net10.0\TP5.genruntimeconfig.cache
+C:\TP5\obj\Debug\net10.0\ref\TP5.dll

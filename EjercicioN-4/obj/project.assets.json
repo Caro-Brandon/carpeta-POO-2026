@@ -8,17 +8,21 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\EjercicioN-4\\EjercicioN-4.csproj",
+      "projectUniqueName": "c:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj",
       "projectName": "EjercicioN-4",
-      "projectPath": "C:\\EjercicioN-4\\EjercicioN-4.csproj",
+      "projectPath": "c:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\EjercicioN-4\\obj\\",
+      "outputPath": "c:\\carpeta-POO-2026\\EjercicioN-4\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
