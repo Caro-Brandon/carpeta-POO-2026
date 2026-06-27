@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\carpeta-POO-2026\\TP5\\TP5.csproj": {}
+    "C:\\carpeta-POO-2026\\TP5\\TP5.csproj": {}
   },
   "projects": {
-    "c:\\carpeta-POO-2026\\TP5\\TP5.csproj": {
+    "C:\\carpeta-POO-2026\\TP5\\TP5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\carpeta-POO-2026\\TP5\\TP5.csproj",
+        "projectUniqueName": "C:\\carpeta-POO-2026\\TP5\\TP5.csproj",
         "projectName": "TP5",
-        "projectPath": "c:\\carpeta-POO-2026\\TP5\\TP5.csproj",
+        "projectPath": "C:\\carpeta-POO-2026\\TP5\\TP5.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\carpeta-POO-2026\\TP5\\obj\\",
+        "outputPath": "C:\\carpeta-POO-2026\\TP5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
