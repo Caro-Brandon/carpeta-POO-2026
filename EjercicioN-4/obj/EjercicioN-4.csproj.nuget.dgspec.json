@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj": {}
+    "C:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj": {}
   },
   "projects": {
-    "c:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj": {
+    "C:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj",
+        "projectUniqueName": "C:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj",
         "projectName": "EjercicioN-4",
-        "projectPath": "c:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj",
+        "projectPath": "C:\\carpeta-POO-2026\\EjercicioN-4\\EjercicioN-4.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\carpeta-POO-2026\\EjercicioN-4\\obj\\",
+        "outputPath": "C:\\carpeta-POO-2026\\EjercicioN-4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

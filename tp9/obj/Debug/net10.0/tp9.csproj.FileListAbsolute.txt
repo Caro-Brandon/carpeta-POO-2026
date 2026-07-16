@@ -1,0 +1,15 @@
+C:\carpeta-POO-2026\tp9\bin\Debug\net10.0\tp9.exe
+C:\carpeta-POO-2026\tp9\bin\Debug\net10.0\tp9.deps.json
+C:\carpeta-POO-2026\tp9\bin\Debug\net10.0\tp9.runtimeconfig.json
+C:\carpeta-POO-2026\tp9\bin\Debug\net10.0\tp9.dll
+C:\carpeta-POO-2026\tp9\bin\Debug\net10.0\tp9.pdb
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\tp9.GeneratedMSBuildEditorConfig.editorconfig
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\tp9.AssemblyInfoInputs.cache
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\tp9.AssemblyInfo.cs
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\tp9.csproj.CoreCompileInputs.cache
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\tp9.sourcelink.json
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\tp9.dll
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\refint\tp9.dll
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\tp9.pdb
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\tp9.genruntimeconfig.cache
+C:\carpeta-POO-2026\tp9\obj\Debug\net10.0\ref\tp9.dll

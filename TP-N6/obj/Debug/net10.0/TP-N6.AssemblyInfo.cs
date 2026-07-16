@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP-N6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bf244dd5fe1b57c9de319e22f439b698d93b9e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+536e917cb6cd090ff08a68ca656d9581b589141e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP-N6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP-N6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
