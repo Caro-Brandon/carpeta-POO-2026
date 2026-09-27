@@ -15,8 +15,10 @@ while (ejecutando)
     Console.WriteLine("1. Ver inventario");
     Console.WriteLine("2. Agregar producto al pedido");
     Console.WriteLine("3. Ver resumen del pedido");
-    Console.WriteLine("4. Confirmar pago");
-    Console.WriteLine("5. Salir");
+    Console.WriteLine("4. Aplicar cupon de descuento");
+    Console.WriteLine("5. Confirmar pago");
+    Console.WriteLine("6. Vaciar pedido");
+    Console.WriteLine("7. Salir");
     Console.Write("Elegi una opcion: ");
 
     string? entrada = Console.ReadLine();
@@ -43,9 +45,17 @@ while (ejecutando)
             break;
 
         case 4:
+            AplicarCupon(pedidoActual);
+            break;
+
+        case 5:
             if (pedidoActual.ObtenerProductos().Count == 0)
             {
                 Console.WriteLine("El pedido esta vacio.");
+            }
+            else if (pedidoActual.Estado == "Completado")
+            {
+                Console.WriteLine("El pedido ya fue pagado.");
             }
             else
             {
@@ -54,7 +64,19 @@ while (ejecutando)
             }
             break;
 
-        case 5:
+        case 6:
+            if (pedidoActual.ObtenerProductos().Count == 0)
+            {
+                Console.WriteLine("El pedido esta vacio.");
+            }
+            else
+            {
+                pedidoActual.VaciarPedido();
+                Console.WriteLine("El pedido fue vaciado y el stock fue devuelto.");
+            }
+            break;
+
+        case 7:
             ejecutando = false;
             break;
 
@@ -73,18 +95,19 @@ static void MostrarInventario(List<Producto> inventario)
         Producto producto = inventario[i];
 
         Console.WriteLine(
-            (i + 1) + ". " +
-            producto.Nombre +
-            " - $" +
-            producto.Precio.ToString("F2") +
-            " - Stock: " +
-            producto.Stock
+            $"{i + 1}. {producto.Nombre} - ${producto.Precio:F2} - Stock: {producto.Stock}"
         );
     }
 }
 
 static void AgregarAlPedido(List<Producto> inventario, Pedido pedido)
 {
+    if (pedido.Estado == "Completado")
+    {
+        Console.WriteLine("El pedido ya fue pagado.");
+        return;
+    }
+
     MostrarInventario(inventario);
 
     Console.Write("Numero de producto: ");
@@ -137,15 +160,39 @@ static void MostrarResumen(Pedido pedido)
 
     foreach (Producto producto in productos)
     {
-        Console.WriteLine(
-            producto.Nombre +
-            " - $" +
-            producto.Precio.ToString("F2")
-        );
+        Console.WriteLine($"{producto.Nombre} - ${producto.Precio:F2}");
     }
 
     decimal total = pedido.CalcularTotal(0.21m);
 
-    Console.WriteLine("Total con impuesto: $" + total.ToString("F2"));
+    Console.WriteLine($"Total con impuesto: ${total:F2}");
     Console.WriteLine("Estado del pedido: " + pedido.Estado);
+}
+
+static void AplicarCupon(Pedido pedido)
+{
+    if (pedido.ObtenerProductos().Count == 0)
+    {
+        Console.WriteLine("El pedido esta vacio.");
+        return;
+    }
+
+    if (pedido.Estado == "Completado")
+    {
+        Console.WriteLine("El pedido ya fue pagado.");
+        return;
+    }
+
+    Console.Write("Ingresa el codigo del cupon: ");
+    string? codigo = Console.ReadLine();
+
+    if (codigo == "DESCUENTO10")
+    {
+        pedido.AplicarCupon(codigo);
+        Console.WriteLine("Cupon aplicado correctamente.");
+    }
+    else
+    {
+        Console.WriteLine("El cupon no es valido.");
+    }
 }

@@ -21,4 +21,9 @@ public class Producto
 
         return false;
     }
+
+    public void DevolverStock(int cantidad)
+    {
+        Stock = Stock + cantidad;
+    }
 }

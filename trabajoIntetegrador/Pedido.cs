@@ -4,6 +4,8 @@ public class Pedido
 
     public string Estado { get; private set; } = "Pendiente";
 
+    private bool cuponAplicado = false;
+
     public bool AgregarProducto(Producto producto, int cantidad)
     {
         if (producto.DescontarStock(cantidad))
@@ -28,12 +30,37 @@ public class Pedido
             subtotal = subtotal + producto.Precio;
         }
 
-        return subtotal + (subtotal * impuesto);
+        decimal total = subtotal + (subtotal * impuesto);
+
+        if (cuponAplicado)
+        {
+            total = total - (total * 0.10m);
+        }
+
+        return total;
+    }
+
+    public void AplicarCupon(string codigo)
+    {
+        if (codigo == "DESCUENTO10")
+        {
+            cuponAplicado = true;
+        }
     }
 
     public void ConfirmarPago()
     {
         Estado = "Completado";
+    }
+
+    public void VaciarPedido()
+    {
+        foreach (Producto producto in productosPedido)
+        {
+            producto.DevolverStock(1);
+        }
+
+        productosPedido.Clear();
     }
 
     public List<Producto> ObtenerProductos()
