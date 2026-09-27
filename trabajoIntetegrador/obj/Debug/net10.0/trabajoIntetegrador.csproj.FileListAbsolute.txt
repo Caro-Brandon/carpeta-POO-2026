@@ -1,0 +1,14 @@
+E:\trabajoIntetegrador\bin\Debug\net10.0\trabajoIntetegrador.exe
+E:\trabajoIntetegrador\bin\Debug\net10.0\trabajoIntetegrador.deps.json
+E:\trabajoIntetegrador\bin\Debug\net10.0\trabajoIntetegrador.runtimeconfig.json
+E:\trabajoIntetegrador\bin\Debug\net10.0\trabajoIntetegrador.dll
+E:\trabajoIntetegrador\bin\Debug\net10.0\trabajoIntetegrador.pdb
+E:\trabajoIntetegrador\obj\Debug\net10.0\trabajoIntetegrador.GeneratedMSBuildEditorConfig.editorconfig
+E:\trabajoIntetegrador\obj\Debug\net10.0\trabajoIntetegrador.AssemblyInfoInputs.cache
+E:\trabajoIntetegrador\obj\Debug\net10.0\trabajoIntetegrador.AssemblyInfo.cs
+E:\trabajoIntetegrador\obj\Debug\net10.0\trabajoIntetegrador.csproj.CoreCompileInputs.cache
+E:\trabajoIntetegrador\obj\Debug\net10.0\trabajoIntetegrador.dll
+E:\trabajoIntetegrador\obj\Debug\net10.0\refint\trabajoIntetegrador.dll
+E:\trabajoIntetegrador\obj\Debug\net10.0\trabajoIntetegrador.pdb
+E:\trabajoIntetegrador\obj\Debug\net10.0\trabajoIntetegrador.genruntimeconfig.cache
+E:\trabajoIntetegrador\obj\Debug\net10.0\ref\trabajoIntetegrador.dll
